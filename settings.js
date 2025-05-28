@@ -1,7 +1,7 @@
 /*
-  project_name : FRANK-XMD Bot
+  project_name :༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒-XMD Bot
   Version : 2.4.0
-  Owner : Frank Marvin
+  Owner : ༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒
   Do Not Clone 
 
 
@@ -16,24 +16,24 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~E38TnKqT#Fmq1rpfnjaCOCFhD-XFKO8mc1jsL9fgZFZ4s3bwe5rU'
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~4jFCRQRK#-SxN2ZTlp_1PlZ6dvDDTUl2f94AyjD1hAXTv6bwqrPI'
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'FRANK-XMD' 
+global.botname = process.env.BOT_NAME || '༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒-XMD' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254748642275'
+global.ownernumber = process.env.OWNER_NUMBER || '254111 932171'
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'FrankMarv' 
+global.ownername = process.env.OWNER_NAME || '༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒'
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "FRANK-XMD" 
+global.packname = process.env.STICKER_PACK_NAME || "༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
