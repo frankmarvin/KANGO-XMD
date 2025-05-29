@@ -1,13 +1,13 @@
 /*
-  project_name :༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒-XMD Bot
+  project_name :Colloh-XMD Bot
   Version : 2.4.0
-  Owner : ༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒
+  Owner : Colloh
   Do Not Clone 
 
 
 */
 
-//----------------------[ FRANK-XMD]----------------------//
+//----------------------[ Colloh-XMD]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -16,28 +16,28 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~I79WWL6K#ictOEZEbAPr2eZdnymrVcU7Yna1S6fUYgVoPPOjerzs'
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~Jr1SRbSL#7BG7iJ8Zxh30FRNF8rXy_ml8MlPgCWQJtUjanRDILCI'
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || '༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒-XMD' 
+global.botname = process.env.BOT_NAME || 'Colloh-XMD' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254111 932171'
+global.ownernumber = process.env.OWNER_NUMBER || '254746001286'
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || '༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒'
+global.ownername = process.env.OWNER_NAME || 'Colloh'
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "༒༅༅𝔠𝔞𝔩𝔪𖣘𝔟𝔢𝔦𝔟༅༅༒" 
+global.packname = process.env.STICKER_PACK_NAME || "Colloh" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "frank" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Colloh" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
