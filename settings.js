@@ -1,7 +1,7 @@
 /*
   project_name :FRANK-XMD Bot
   Version : 2.4.0
-  Owner : Colloh
+  Owner : Frank
   Do Not Clone 
 
 
