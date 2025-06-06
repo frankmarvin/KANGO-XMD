@@ -1,13 +1,13 @@
 /*
-  project_name :Frank-XMD Bot
+  project_name :Calm-XMD Bot
   Version : 2.4.0
-  Owner : Frank
+  Owner : Calm
   Do Not Clone 
 
 
 */
 
-//----------------------[ Frank-XMD]----------------------//
+//----------------------[ Calm-XMD]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -16,28 +16,28 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~M2MC2KaI#QMhLzw5micry9DxL9wCYUjXTeihROypPjSjkfVfGnOM'
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~UiV3gZwY#aPTcGb3umWeBfGjJQBLPz2uCZHoCvxrEfSMJ6FUTcFM'
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'Frank-XMD' 
+global.botname = process.env.BOT_NAME || 'Calm-XMD' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254748642275'
+global.ownernumber = process.env.OWNER_NUMBER || '254111932171'
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Frank'
+global.ownername = process.env.OWNER_NAME || 'Calm'
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Frank"
+global.packname = process.env.STICKER_PACK_NAME || "Calm"
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Frank"
+global.author = process.env.STICKER_AUTHOR_NAME || "Calm"
 
 //----------------------[ TIMEZONE ]--------------------//
 
@@ -58,13 +58,13 @@ global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©Frank-XMD"
+global.wm = process.env.GL_WM || "> ©Calm-XMD"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '> © Frank-XMD', 
+  success: '> © Calm-XMD', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
@@ -86,4 +86,4 @@ fs.watchFile(file, () => {
   require(file)
 })
 
-//----------------------[ Frank-𝙓𝙈𝘿 ]----------------------//
+//----------------------[ Calm-𝙓𝙈𝘿 ]----------------------//
